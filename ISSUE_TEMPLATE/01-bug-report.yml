@@ -1,0 +1,77 @@
+name: Bug report
+description: Something does not behave as it should - a build that fails, a crash, a wrong answer, a check that rejects what it should take.
+type: Bug
+assignees:
+  - jbenedictocenteno
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One issue per problem, please. A bug in kodeOS goes to [KodeOS](https://github.com/kodediy/KodeOS/issues/new/choose), a bug in a driver, an Active Object or the `kode` facade to [kode-sdk](https://github.com/kodediy/kode-sdk/issues/new/choose).
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before you file
+      options:
+        - label: I have searched this repository's open and closed issues and found nothing that covers this.
+          required: true
+        - label: I have reproduced it on the latest release, or on `develop`.
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The tag or the commit you built, flashed or ran.
+      placeholder: v0.1.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: board
+    attributes:
+      label: Board
+      description: If it runs on a Kode Dot, what `info` prints on kodeOS's console. For the radio, what `c5` prints too.
+      render: text
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: What you saw, as precisely as you can. Quote messages exactly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Start from a known state and list every step, with every command and its arguments.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log
+      description: |
+        The output around the failure. For a build, the full output: the first error matters more than the last line, so do not trim the top. For a crash, the backtrace and the reset reason.
+      render: text
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Your host operating system and ESP-IDF version for a build, what changed since it last worked, what you already ruled out.

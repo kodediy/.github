@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/kodediy/kode-sdk/discussions
+    about: How do I..., would it make sense to... Ask in Discussions; issues are for defects and agreed work.
+  - name: kodeOS bug or feature
+    url: https://github.com/kodediy/KodeOS/issues/new/choose
+    about: The face, Apps, Settings, the console verbs, updates and the app manager's behaviour on the device live in KodeOS.
+  - name: SDK bug or API proposal
+    url: https://github.com/kodediy/kode-sdk/issues/new/choose
+    about: Drivers, Active Objects, the kode facade, the UI kit and the examples live in kode-sdk.
+  - name: Security problem
+    url: https://github.com/kodediy/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. The security policy says how to report it.
+  - name: Documentation
+    url: https://docs.kode.diy
+    about: How to build an app, the SDK's calls and how kodeOS works.
