@@ -1,6 +1,6 @@
 # Trademarks
 
-**Kody** is a registered trademark of Kode. **Kode**, **Kode Dot** and **kodeOS** are trademarks of Kode. This file says how you can use them.
+Kode, Kode Dot, kodeOS and Kody are trademarks of Kode. This file says how you can use them.
 
 ## What the licences give you, and what they do not
 
