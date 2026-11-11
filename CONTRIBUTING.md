@@ -69,7 +69,8 @@ You keep the copyright of what you write. By opening a pull request you agree th
 
 | Where | Licence of your contribution |
 |---|---|
-| kode-sdk, KodeOS, kode-app-template, kode-apps | GNU General Public License, version 3 or later, **with the additional permission under section 7** that `NOTICE.md` gives for RFAL |
+| kode-sdk, KodeOS, kode-app-template | GNU General Public License, version 3 or later, **with the additional permission under section 7** that the repository's `NOTICE.md` gives for RFAL |
+| kode-apps | GNU General Public License, version 3 or later |
 | kode_slave_c5 | Apache License, version 2.0 |
 | the drawings and animations of Kody | Creative Commons Attribution-ShareAlike 4.0 |
 
